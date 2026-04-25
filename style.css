@@ -1,0 +1,84 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* BODY */
+  body {
+    background: #0f172a;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e293b;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #38bdf8;
+  }
+  
+  /* HERO */
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: #0b1220;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+  }
+  
+  .hero p {
+    color: #94a3b8;
+    margin-top: 10px;
+  }
+  
+  /* SECTIONS */
+  .card {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  
+  /* PROJECT CARDS */
+  .project-card {
+    background: #0b1220;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #38bdf8;
+  }
+  
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #1e293b;
+    color: #94a3b8;
+  }
